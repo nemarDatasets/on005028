@@ -1,27 +1,92 @@
 {
   "version": "2.0",
-  "dataset_id": "on005028",
-  "source": "openneuro",
-  "source_id": "ds005028",
+  "pipeline_stage": "validated",
   "title": "Comparing P300 Flashing paradigms in online typing with language models",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Nand Chandravadia": {},
     "Shrita Pendekanti": {},
     "Dustin Roberts": {},
     "Robert Tran": {},
-    "Saarang Panchavati": {},
-    "Corey Arnold": {},
-    "Nader Pouratian": {},
-    "William Speier": {}
+    "Saarang Panchavati": {
+      "orcid": "0000-0003-1658-0364"
+    },
+    "Corey Arnold": {
+      "orcid": "0000-0002-4119-8143"
+    },
+    "Nader Pouratian": {
+      "orcid": "0000-0002-0426-3241"
+    },
+    "William Speier": {
+      "orcid": "0000-0002-0890-8684"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005028.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005028",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005028",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2022.06.24.22276882",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DGE-2034835",
+      "award_title": "Graduate Research Fellowship Program"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.6 GB (211 files)"
+  ],
+  "formats": [
+    ".dat",
+    ".edf",
+    ".json",
+    ".md",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from a P300-based brain-computer interface speller study investigating the effects of different flashing paradigms on online typing performance. The study integrates language models to enhance decoding accuracy and compares multiple P300 flashing strategies during real-time spelling tasks. Data were collected using BCI2000 and include recordings from multiple subjects performing typing tasks under different experimental conditions.",
+  "methods_description": "Data were acquired using BCI2000. The study employed P300-based speller paradigms with multiple flashing conditions during online typing tasks. EEG signals were recorded and processed to evaluate typing performance across different flashing paradigms in conjunction with language model integration.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "speller"
+    },
+    {
+      "term": "language models"
+    },
+    {
+      "term": "motor imagery"
+    }
+  ],
+  "source_hash": "06f2c7b6a7611835bae50345072110a2074c1edb5a5da40ba4a85f711bd0daca"
 }
